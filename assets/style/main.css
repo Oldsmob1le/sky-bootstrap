@@ -9,7 +9,7 @@
 :root {
     --blue: rgb(101, 193, 206);
     --white: rgb(241, 249, 251);
-    --section: 112px 0;
+    --section: 112px 0 0 0;
 }
 
 body {
@@ -19,41 +19,66 @@ body {
 
 /* BUTTON START (need fix) */
 
-.button-blue {
-    background: var(--blue);
-    color: #fff;
+.btn-header {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
 }
 
-.button-blue.active {
-    background-color: green;
-    color: white;
+.btn-header:hover {
+    background-color:rgba(101, 193, 206, 0.9);
+}
+
+.btn-header:active {
+    color: aqua;
+}
+
+.btn-outline-header {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 8px;
+}
+
+.btn-outline-header:hover {
+    border: 1px solid rgba(101, 193, 206, 0.8);
+    color: var(--blue);
+}
+
+.btn-main {
+    background: var(--blue);
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding: 10px 40px;
+    color: #fff;
 }
 
 /* BUTTON END */
 
 /* HEADER START */
 
-.img-fluid {
+.background {
     position: absolute;
     z-index: -1;
+    width: 100%;
+    height: auto;
 }
 
-.navbar-logo {
-    display: flex;
-    gap: 3px;
+.logo {
+    text-decoration: none;
+    gap: 5px;
 }
 
 .navbar-logo p {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    color: #fff;
+    color: var(--white);
     margin-top: 15px;
     letter-spacing: 2px;
 }
 
 .nav-item a {
-    color: #fff;
+    color: var(--white);
 }
 
 .navbar-btn {
@@ -62,6 +87,26 @@ body {
 }
 
 /* HEADER END */
+
+
+/* FOOTER START */
+
+footer {
+    padding: 10px 0 0 0;
+}
+
+footer a {
+    color: #ffffff94;
+    text-decoration: none;
+}
+
+/* FOOTER AND */
+
+
+
+/* <---------- MAIN PAGE -----------> */
+
+
 
 /* SEARCH START (need fix)*/
 
@@ -77,6 +122,8 @@ body {
     border-radius: 24px;
     border: 1px solid var(--blue);
     backdrop-filter: blur(40px);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(101, 194, 206, 0.04);
 }
 
 .btn-search {
@@ -106,9 +153,12 @@ body {
 
 /* POPOLAR START (need fix) */
 
+.popular {
+    padding: var(--section);
+}
+
 .popular h2 {
     color: #fff;
-    margin-left: 20px;
 }
 
 .popular-bg {
@@ -181,9 +231,9 @@ body {
 
 .advice-bg {
     padding: 80px;
-    border-radius: 20px;
-    backdrop-filter: blur(40px);
-    border: 1px solid var(--blue);
+    border: 1px solid rgba(101, 193, 206, 0.65);
+    border-radius: 24px;
+    background: rgba(101, 193, 206, 0.1);
 }
 
 .advice-text h2 {
@@ -295,3 +345,180 @@ body {
 }
 
 /* ADVICE END */
+
+/* RECENT START */
+
+.recent {
+    padding: var(--section);
+}
+
+.recent-bg {
+    padding: 80px 80px 60px 80px;
+    border-radius: 24px;
+    background: rgba(101, 193, 206, 0.15);
+    border: 1px solid rgba(101, 193, 206, 0.65);
+}
+
+.recent h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--blue);
+    margin-bottom: 3rem;
+}
+
+.recent-items {
+    margin-bottom: 2.8rem;
+}
+
+.recent-item p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: .5rem;
+    letter-spacing: 1.2px;
+}
+
+
+.recent-item span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--blue);
+}
+
+.recent-image {
+    padding-bottom: 1rem;
+}
+
+
+/* RECENT END */
+
+
+/* <---------- SERVICE PAGE -----------> */
+
+/* SERVICE START */
+
+.service-item {
+    border-radius: 24px;
+    border: 1px solid var(--blue);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(210, 210, 210, 0.2);
+}
+
+.service-item h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--blue);
+    padding: 22px 27px 10px 16px;
+}
+
+.service-item p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--white);
+    padding: 0px 40px 30px 40px;
+}
+
+/* SERVICE END */
+
+/* <---------- ABOUT PAGE -----------> */
+
+/* MISSION START */
+
+.mission {
+    padding: var(--section);
+}
+
+.mission h2 {
+    color: var(--white);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+.mission-item {
+    border-radius: 24px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--blue);
+    background: rgba(159, 199, 204, 0.082);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.mission-item h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    color: var(--blue);
+}
+
+.mission-item p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--white);
+}
+
+/* MISSION END */
+
+/* NEWS START */
+
+.news {
+    padding: var(--section);
+}
+
+.news-item h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--blue);
+}
+
+.news-item p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--white);
+    margin: 15px 0px 0px 25px;
+}
+
+.news-item span {
+    color: var(--blue);
+}
+
+.news-item h3 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    color: var(--blue);
+}
+
+/* NEWS END */
+
+/* GARAGE START */
+
+.garage {
+    padding: var(--section);
+}
+
+.garage-plane h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--blue);
+}
+
+.plane-item p {
+    font-size: 1.2em;
+    color: var(--white);
+    margin-bottom: 2px;
+}
+
+.plane-item img {
+    width: 250px;
+}
+
+/* GARAGE END */
