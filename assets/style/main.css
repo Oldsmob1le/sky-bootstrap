@@ -472,7 +472,7 @@ footer a {
 
 .mission-item {
     border-radius: 24px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
     border: 1px solid var(--blue);
     background: rgba(159, 199, 204, 0.082);
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
@@ -512,6 +512,10 @@ footer a {
     font-weight: 500;
     line-height: 24px;
     color: var(--white);
+    max-width: 799px;
+}
+
+.news-left {
     margin: 15px 0px 0px 25px;
 }
 
@@ -549,6 +553,12 @@ footer a {
 
 .plane-item img {
     width: 250px;
+}
+
+@media (max-width: 992px) {
+    .plane-item img {
+        width: 200px;
+    }
 }
 
 /* GARAGE END */
