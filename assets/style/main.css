@@ -402,6 +402,12 @@ footer a {
     padding: 80px 0 0 0;
 }
 
+@media (max-width: 992px) {
+    .service {
+        padding: 50px 0 0 0;
+    }
+}
+
 .service h2 {
     font-size: 32px;
     font-weight: 400;
@@ -460,6 +466,12 @@ footer a {
 
 .mission {
     padding: var(--section);
+}
+
+@media (max-width: 992px) {
+    .mission {
+        padding: 50px 0 0 0;
+    }
 }
 
 .mission h2 {
