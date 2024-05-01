@@ -29,10 +29,6 @@ body {
     background-color: rgba(101, 193, 206, 0.9);
 }
 
-.btn-header:active {
-    color: aqua;
-}
-
 .btn-outline-header {
     border: 1px solid var(--blue);
     color: var(--blue);
@@ -46,9 +42,9 @@ body {
 
 .btn-main {
     background: var(--blue);
-    border-radius: 15px;
+    border-radius: 13px;
     font-size: 1.2em;
-    padding: 10px 40px;
+    padding: 8px 22px;
     color: #fff;
 }
 

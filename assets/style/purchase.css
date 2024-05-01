@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: rgb(101, 193, 206);
+    --white: rgb(241, 249, 251);
+    --section: 112px 0 0 0;
+    --bs-form-switch-bg: url('../image/switch.svg');
+}
+
+body {
+    font-family: 'Qanelas';
+    background: black;
+}
+
+/* <---------- Ticket ---------> */
+
+.ticket-bg {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    border-radius: 24px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(1000px);
+    background: linear-gradient(0deg, rgba(188, 254, 255, 0.5) 10%, rgba(101, 193, 206, 0.5) 90%);
+}
+
+.info-item h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--white);
+}
+
+.info-item p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.info-item span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--blue);
+}
+
+.ticket-line {
+    border: 1px solid rgb(255, 255, 255);
+    width: 1px;
+    padding: 0px;
+}
+
+.ticket-price h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    color: var(--white);
+}
+
+.ticket-price p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: var(--white);
+}
+
+.ticket-price span {
+    color: var(--blue);
+    font-size: 16px;
+}
+
+.price-bg {
+    border: 1px solid var(--blue);
+    border-radius: 13px;
+    padding: 8px 0px 8px 8px;
+}
+
+.price-switch {
+    margin-top: 2px;
+}
+.form-check-input:checked {
+    background-color: var(--blue); 
+    border-color: var(--blue);
+}
+.form-check-input:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+
+@media (max-width: 992px) {
+    .info-item img {
+        width: 450px;
+    }
+}
