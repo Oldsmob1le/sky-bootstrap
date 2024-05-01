@@ -45,7 +45,12 @@ body {
     border-radius: 13px;
     font-size: 1.2em;
     padding: 8px 22px;
-    color: #fff;
+    color: var(--white);
+}
+
+.btn-main:hover {
+    background: rgba(101, 193, 206, 0.8);
+    color: var(--white);
 }
 
 /* BUTTON END */
