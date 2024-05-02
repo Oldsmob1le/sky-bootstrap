@@ -124,7 +124,7 @@ body {
 .union-image {
     position: absolute;
     top: 0;
-    left: -50%;
+    left: -60%;
     width: 100%;
     height: auto;
     /* clip-path: inset(0 0 0 0); */
@@ -132,6 +132,10 @@ body {
 
 .place-bg {
     position: relative;
+}
+
+.place-info {
+    margin-top: 120px;
 }
 
 .place-name h3 {
