@@ -189,6 +189,17 @@ body {
     color: var(--blue);
 }
 
+/* .union-place {
+    position: absolute;
+    top: 0;
+    left: 20%;
+} */
+
+
+.union-check {
+    padding: 25px 20px 25px 20px;
+}
+
 /* PLACE END */
 
 /* <---------- PAYMENT PAGE ----------> */
