@@ -118,6 +118,7 @@ body {
     font-weight: 400;
     line-height: 38px;
     color: var(--white);
+    margin-left: 120px;
     margin-bottom: 50px;
 }
 
@@ -243,6 +244,9 @@ body {
     }
     .place-info {
         margin-top: 300px;
+    }
+    .place h2 {
+        margin-left: 0px;
     }
 }
 @media (max-width: 768px) {
