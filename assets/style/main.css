@@ -292,6 +292,7 @@ footer a {
     line-height: 24px;
 }
 
+
 @media (max-width: 992px) {
 
     .advice-text h2 {
@@ -371,6 +372,7 @@ footer a {
 .recent-items {
     margin-bottom: 2.8rem;
 }
+
 .recent-item p {
     font-size: 18px;
     font-weight: 500;
@@ -390,9 +392,7 @@ footer a {
     padding-bottom: 1rem;
 }
 
-@media (max-width: 992px) {
-
-}
+@media (max-width: 992px) {}
 
 /* RECENT END */
 
@@ -442,11 +442,13 @@ footer a {
         width: 520px;
     }
 }
+
 @media (max-width: 1200px) {
     .service-item {
         width: 460px;
     }
 }
+
 @media (max-width: 992px) {
     .service {
         padding: 50px 0 0 0;
@@ -574,3 +576,64 @@ footer a {
 }
 
 /* GARAGE END */
+
+/* ACCOUNT START */
+
+.account {
+    padding: var(--section);
+}
+
+.account-bg {
+    border-radius: 24px;
+    border: 1px solid #ffffff5d;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(128, 251, 255, 0.13);
+    backdrop-filter: blur(10px);
+}
+
+.account-name h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    color: var(--white);
+}
+
+.account-name p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.account-name span {
+    color: var(--blue);
+}
+
+.account-bg h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    color: var(--white);
+}
+
+.account-ticket p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: var(--blue);
+}
+
+.account-ticket h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--white);
+}
+
+@media (max-width: 576px) {
+    .account {
+        padding: 50px 0 0 0;
+    }
+}
+
+/* ACCOUNT END */
