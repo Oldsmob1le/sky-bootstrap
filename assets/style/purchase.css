@@ -205,7 +205,7 @@ body {
 }
 
 .form-check-input:focus {
-    border-color: var(--blue); 
+    border-color: var(--blue);
 }
 
 .form-check-input:disabled {
@@ -242,37 +242,43 @@ body {
     .plane-biz {
         margin-top: 100px;
     }
+
     .place-info {
         margin-top: 300px;
     }
+
     .place h2 {
         margin-left: 0px;
     }
 }
+
 @media (max-width: 768px) {
     .place-info {
         margin-top: 50px;
     }
 }
+
 @media (max-width: 576px) {
     .plane {
         min-width: 200px;
     }
+
     .union-item h3 {
-        font-size: 22px;
+        font-size: 25px;
         font-weight: 500;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .union-item p {
-        font-size: 12px;
         line-height: 20px;
     }
-    
-    .union-item span {
-        font-size: 11px;
+
+    .union-item p {
+        font-size: 16px;
+        line-height: 23px;
+        color: #ffffffd3;
     }
+
+    .place {
+        padding: 50px 0 0 0;
+    }
+
 }
 
 /* PLACE END */
