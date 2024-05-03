@@ -360,8 +360,8 @@
                 </div>
             </div>
 
-            <div class="union-info col ms-4 d-none d-lg-block" data-aos="fade-right"
-            data-aos-anchor="#example-anchor" data-aos-offset="600" data-aos-duration="600">
+            <div class="union-info col ms-4 d-none d-lg-block" data-aos="fade-right" data-aos-anchor="#example-anchor"
+                data-aos-offset="600" data-aos-duration="600">
                 <div class="union-item biz">
                     <h3>Бизнес</h3>
                     <span>Класс</span>
@@ -438,7 +438,11 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            disable: function () {
+                return window.innerWidth < 992;
+            }
+        });
     </script>
 
 </body>
