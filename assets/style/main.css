@@ -27,12 +27,24 @@ body {
 
 .btn-header:hover {
     background-color: rgba(101, 193, 206, 0.9);
+    color: #fff;
 }
 
 .btn-outline-header {
     border: 1px solid var(--blue);
     color: var(--blue);
     border-radius: 8px;
+}
+
+.btn-modal {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 8px;
+}
+
+.btn-modal:hover {
+    background-color: rgba(101, 193, 206, 0.9);
+    color: #fff;
 }
 
 .btn-outline-header:hover {
@@ -52,6 +64,7 @@ body {
     background: rgba(101, 193, 206, 0.8);
     color: var(--white);
 }
+
 
 /* BUTTON END */
 
@@ -85,6 +98,51 @@ body {
 .navbar-btn {
     display: flex;
     gap: 10px;
+}
+
+/* Modal */
+
+.modal-content {
+    border-color: var(--blue);
+    /* background: rgba(128, 251, 255, 0.041); */
+}
+
+.modal-content h5 {
+    color: var(--blue);
+}
+
+.modal-content a {
+    color: var(--blue);
+}
+
+.modal-content a {
+    color: var(--blue);
+}
+
+.reg-modal {
+    border-color: var(--blue) !important;
+}
+
+.form-control:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 0.2rem rgba(101, 193, 206, 0.4);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.form-select:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 0.2rem rgba(101, 193, 206, 0.4);
+}
+
+@media (max-width: 576px) {
+    .navbar-logo p {
+        font-size: 17px;
+    }
+    .navbar-logo img {
+        width: 100px;
+    }
 }
 
 /* HEADER END */
@@ -639,17 +697,21 @@ footer a {
     .account {
         padding: 50px 0 0 0;
     }
+
     .account-ticket h3 {
         font-size: 30px;
     }
 }
+
 @media (max-width: 370px) {
     .account-exit-1 {
         display: block;
     }
+
     .account-exit-2 {
         text-align: center;
     }
+
     .account-exit-3 {
         display: none;
     }

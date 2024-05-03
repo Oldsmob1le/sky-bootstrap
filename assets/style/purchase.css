@@ -210,6 +210,10 @@ body {
     box-shadow: none;
     outline: none;
 }
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
 
 .dis-input:disabled {
     opacity: 1;
