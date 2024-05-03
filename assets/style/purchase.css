@@ -302,6 +302,19 @@ body {
     border: 1px solid rgba(187, 240, 247, 0.65);
 }
 
+.payment-item:hover {
+    box-shadow: 0px 0px 3px 0px rgb(101, 193, 206);
+    transition: .1s;
+}
+
+.payment-item.active {
+    background-color: rgba(129, 238, 255, 0.616);
+}
+
+.payment-item.active h3 {
+    color: aliceblue;
+}
+
 .payment-item h3 {
     font-size: 30px;
     font-weight: 500;
@@ -318,7 +331,13 @@ body {
 }
 
 .payment-place {
-    margin-top: 120px;
+    margin-top: 220px;
+}
+
+@media (max-width: 1920px) {
+    .payment-place {
+        margin-top: 120px;
+    }
 }
 
 /* PAYMENT END */
