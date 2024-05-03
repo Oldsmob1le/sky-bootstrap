@@ -77,18 +77,25 @@
     <section class="account container-xxl">
         <div class="account-bg m-4 p-5">
             <div class="account-name row">
-                <div class="col">
+                <div class="col-12 account-exit-1 text-center">
+                    <button type="button" class="btn btn-outline-header">Выйти</button>
+                </div>
+                <div class="col account-exit-2">
                     <h3>Мусин Михаил Никитич</h3>
                     <p><span>Мужчина</span> 09.09.2005 </p>
                 </div>
-                <div class="col text-end">
+                <div class="col text-end account-exit-3">
                     <button type="button" class="btn btn-outline-header">Выйти</button>
                 </div>
             </div>
             <h2 class="text-center my-5">Активные билеты</h2>
-            <div class="account-ticket row d-flex">
-                <div class="col text-center">
+            <div class="account-ticket row d-flex flex-column  flex-sm-row gap-4">
+                <div class="col text-center d-none d-md-block">
                     <p>Номер рейса</p>
+                    <h3>N1-488</h3>
+                </div>
+                <div class="col text-center d-block d-md-none">
+                    <p>Номер <br> рейса</p>
                     <h3>N1-488</h3>
                 </div>
                 <div class="col"></div>

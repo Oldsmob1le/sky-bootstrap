@@ -630,9 +630,28 @@ footer a {
     color: var(--white);
 }
 
+.account-exit-1 {
+    display: none;
+    margin-bottom: 40px;
+}
+
 @media (max-width: 576px) {
     .account {
         padding: 50px 0 0 0;
+    }
+    .account-ticket h3 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 370px) {
+    .account-exit-1 {
+        display: block;
+    }
+    .account-exit-2 {
+        text-align: center;
+    }
+    .account-exit-3 {
+        display: none;
     }
 }
 
