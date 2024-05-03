@@ -339,5 +339,10 @@ body {
         margin-top: 120px;
     }
 }
+@media (max-width: 576px) {
+    .payment-place {
+        margin-top: 60px;
+    }
+}
 
 /* PAYMENT END */
