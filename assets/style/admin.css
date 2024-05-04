@@ -1,0 +1,25 @@
+:root {
+    --bs-btn-active-bg: #65C1CE;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.section {
+    padding: 100px 0 0 0;
+}
+
+.btn-primary {
+    background-color: #65C1CE;
+    border-color: #65C1CE;
+}
+.btn-primary:hover {
+    background-color: #65c2cedc;
+    border-color: #65c2ceb7;
+}
+
+.btn-primary:active {
+    --bs-btn-active-bg: #65C1CE;
+    --bs-btn-active-border-color: #65C1CE;
+}
