@@ -25,6 +25,10 @@ body {
     border-radius: 10px;
 }
 
+a {
+    color: rgb(101, 193, 206);
+}
+
 .btn-header:hover {
     background-color: rgba(101, 193, 206, 0.9);
     color: #fff;
@@ -58,8 +62,14 @@ body {
     font-size: 1.2em;
     padding: 8px 22px;
     color: var(--white);
+    text-decoration: none;
 }
-
+.btn-main:checked {
+    background: var(--blue);
+}
+.btn {
+    --bs-btn-border-color: var(--blue);
+}
 .btn-main:hover {
     background: rgba(101, 193, 206, 0.8);
     color: var(--white);
@@ -308,6 +318,13 @@ footer a {
     border: 1px solid rgba(101, 193, 206, 0.65);
     border-radius: 24px;
     background: rgba(101, 193, 206, 0.1);
+    position: relative;
+}
+
+.calendar {
+    position: absolute;
+    top: -33px;
+    right: 40px;
 }
 
 .advice-text h2 {
@@ -333,11 +350,11 @@ footer a {
     background: rgb(255, 255, 255);
     max-width: 543.64px;
     min-width: 509px;
-    max-height: 248.16px;
+    max-height: 230.16px;
 }
 
 .advice-content__img {
-    margin: 25px;
+    margin: 15px;
 }
 
 .advice-content__text {
