@@ -214,7 +214,7 @@
   <!-- TICKET START -->
 
   <section class="ticket container-xxl">
-    <div class="ticket-bg row m-4 p-5 d-flex flex-column flex-xl-row">
+    <div class="ticket-bg row m-5 p-5 d-flex flex-column flex-xl-row">
       <div class="py-4 ticket-info d-flex flex-column flex-md-row col justify-content-center gap-5 gap-md-3">
         <div class="info-item text-center">
           <h3>22:00</h3>
@@ -259,17 +259,20 @@
   <!-- POPULAR START -->
 
   <section class="popular container-xxl d-flex flex-column" data-aos="fade-up" data-aos-duration="600">
-    <h2>Популярные маршруты</h2>
+    <h2 class="ms-4">Популярные маршруты</h2>
     <div class="popular-bg m-4 d-flex flex-column flex-md-row">
-      <div class="popular-block position-relative col">
-        <img src="assets/image/popular-1.png" alt="Popular" />
-        <div class="popular-style position-absolute">
-          <div class="popular-text d-flex align-items-center justify-content-center">
-            <img src="assets/image/Vector.svg" alt="Vector" />
-            <p>Стамбул от 8 600 ₽</p>
+      <a href="#">
+        <div class="popular-block position-relative col">
+          <img src="assets/image/popular-1.png" alt="Popular" />
+          <div class="popular-style position-absolute">
+            <div class="popular-text d-flex align-items-center justify-content-center">
+              <img src="assets/image/Vector.svg" alt="Vector" />
+              <p>Стамбул от 8 600 ₽</p>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
+      <a href="#">
       <div class="popular-block position-relative col">
         <img src="assets/image/popular-2.png" alt="Popular" />
         <div class="popular-style position-absolute">
@@ -279,19 +282,21 @@
           </div>
         </div>
       </div>
+      </a>
     </div>
   </section>
 
   <!-- POPULAR END -->
+
 
   <!-- ADVICE START -->
 
   <div class="advice container-xxl" data-aos="fade-up" data-aos-duration="500">
     <div class="advice-bg m-4">
       <div class="advice-main row d-flex justify-content-center">
-        <div class="advice-text col-md-4">
-          <h2>Куда улететь на выходные</h2>
-          <p>
+        <div class="advice-text col-md-5 d-flex flex-column align-items-center d-md-block">
+          <h2 class="text-center text-md-start">Куда улететь на выходные</h2>
+          <p class="text-center text-md-start">
             Билеты для тех, кто не хочет на дачу: удобный вылет и короткие
             пересадки.
           </p>
@@ -299,8 +304,9 @@
             Выбрать город
           </button>
         </div>
-        <div class="advice-content col-md-6 d-flex align-items-center">
-          <div class="advice-content__bg d-flex align-items-center">
+
+        <div class="advice-content col-md-6 d-flex align-items-center justify-content-center">
+          <div class="advice-content__bg d-none d-sm-flex align-items-center justify-content-center">
             <div class="advice-content__img">
               <img src="assets/image/advice/photo.png" alt="Photo" />
             </div>
@@ -311,12 +317,14 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn d-block d-md-none btn-main" id="myButton">
+        
+        <button type="button" class="btn d-block d-md-none btn-main mt-3 mt-md-2 w-sm-50" id="myButton">
           Выбрать город
         </button>
       </div>
     </div>
   </div>
+
 
   <!-- ADVICE END -->
 
@@ -327,36 +335,36 @@
     <div class="recent-bg m-4">
       <h2>Ваш первый раз</h2>
       <div class="recent-items d-flex align-items-center row">
-        <div class="recent-item col">
+        <div class="recent-item col d-flex flex-column align-items-center d-lg-block">
           <img src="assets/image/recent/dubai.png" class="recent-image" alt="Dubai">
-          <p class="r-item">Прыгнуть с парашютом</p>
+          <p class="r-item text-center text-sm-start">Прыгнуть с парашютом</p>
           <p><span>Дубай</span></p>
           <p>
             <img src="assets/image/Vector-white.svg" alt="Plane">
             от 14 977 ₽
           </p>
         </div>
-        <div class="recent-item col">
+        <div class="recent-item col d-flex flex-column align-items-center d-lg-block">
           <img src="assets/image/recent/osetia.png" class="recent-image" alt="Osetia">
-          <p class="r-item">Посмотреть на горы</p>
+          <p class="r-item text-center text-sm-start">Посмотреть на горы</p>
           <p><span>Северная Осетия</span></p>
           <p>
             <img src="assets/image/Vector-white.svg" alt="Plane">
             от 6 800 ₽
           </p>
         </div>
-        <div class="recent-item col">
+        <div class="recent-item col d-flex flex-column align-items-center d-lg-block">
           <img src="assets/image/recent/sea.png" class="recent-image" alt="Sea">
-          <p class="r-item">Поплавать на каноэ</p>
+          <p class="r-item text-center text-sm-start">Поплавать на каноэ</p>
           <p><span>Пхукет</span></p>
           <p>
             <img src="assets/image/Vector-white.svg" alt="Plane">
             от 34 799 ₽
           </p>
         </div>
-        <div class="recent-item col">
+        <div class="recent-item col d-flex flex-column align-items-center d-lg-block">
           <img src="assets/image/recent/cold.png" class="recent-image" alt="Cold">
-          <p class="r-item">Посмотреть на китов</p>
+          <p class="r-item text-center text-sm-start">Посмотреть на китов</p>
           <p><span>Мурманск</span></p>
           <p>
             <img src="assets/image/Vector-white.svg" alt="Plane">

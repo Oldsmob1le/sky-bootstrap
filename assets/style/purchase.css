@@ -97,6 +97,22 @@ body {
 }
 
 
+@media (max-width: 576px) {
+    .ticket-price h2 {
+        font-size: 22px;
+    }
+    .ticket-price p {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+        color: var(--white);
+    }
+    
+    .ticket-price span {
+        color: var(--blue);
+        font-size: 14px;
+    }
+}
 @media (max-width: 992px) {
     .info-item img {
         width: 450px;
