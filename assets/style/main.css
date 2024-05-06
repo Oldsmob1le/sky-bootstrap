@@ -64,12 +64,15 @@ a {
     color: var(--white);
     text-decoration: none;
 }
+
 .btn-main:checked {
     background: var(--blue);
 }
+
 .btn {
     --bs-btn-border-color: var(--blue);
 }
+
 .btn-main:hover {
     background: rgba(101, 193, 206, 0.8);
     color: var(--white);
@@ -438,6 +441,17 @@ footer a {
     }
 }
 
+@media (max-width: 576px) {
+    .calendar {
+        position: absolute;
+        top: -24.5px;
+        right: 40px;
+    }
+    .calendar img {
+        width: 80px;
+    }
+}
+
 /* ADVICE END */
 
 /* RECENT START */
@@ -488,6 +502,7 @@ footer a {
     .recent-item p {
         font-size: 13px;
     }
+
     .recent-item span {
         font-size: 18px;
     }
