@@ -312,6 +312,13 @@ body {
         padding: 50px 0 0 0;
     }
 
+    .price-item p {
+        font-size: 13px;
+    }
+    .price-item span {
+        font-size: 12px;
+    }
+
 }
 
 /* PLACE END */
